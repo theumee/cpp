@@ -1,0 +1,58 @@
+OR GATE:
+(+)
+(|)
+(UNION)
+
+0 | 0 = 0
+0 | 1 = 1
+1 | 0 = 1
+1 | 1 = 1
+
+AND GATE:
+(*)
+(&)
+(Intersection)
+
+0 & 0 = 0
+0 & 1 = 0
+1 & 0 = 0
+1 & 1 = 1
+
+XOR GATE:
+(^)
+
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
+1 ^ 1 = 0
+
+
+Bit SHifts:
+
+
+Left Shift ( << ): 
+Left shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the left and append 0 at the end.
+Left shift is equivalent to multiplying the bit pattern with 2^k ( if we are shifting k bits ).
+1 << 1 = 2 = 2^1
+1 << 2 = 4 = 2^2 
+1 << 3 = 8 = 2^3
+1 << 4 = 16 = 2^4
+…
+1 << k = 2^k
+
+1101(13) << 2 =  110100(52)
+
+// note : ( x << k) = x * pow(2,k);
+
+Right Shift ( >> ):
+Right shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the right and append 1 at the end.
+Right shift is equivalent to dividing the bit pattern with 2^k ( if we are shifting k bits ).
+4 >> 1 = 2
+6 >> 1 = 3
+5 >> 1 = 2
+16 >> 4 = 1
+
+1101 >> 2 = 11
+
+// ( x >> k ) = x /pow(2,k);
+
